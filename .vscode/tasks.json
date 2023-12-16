@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "CP Build",
+      "problemMatcher": ["$gcc"],
+      "command": "g++ -O2 -fwrapv -Wfloat-equal -std=c++17 \"${file}\" -o \"_\" && ./_ < \"${fileDirname}/input.txt\" && rm ./_",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "shell",
+      "label": "CP Build (Interactive)",
+      "problemMatcher": ["$gcc"],
+      "command": "g++ -O2 -fwrapv -Wfloat-equal -std=c++17 \"${file}\" -o \"_\" && ./_ && rm ./_",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    }
+  ],
+  "version": "2.0.0"
+}

@@ -1,0 +1,23 @@
+{
+  "files.associations": {
+    "iostream": "cpp",
+    "vector": "cpp",
+    "utility": "cpp",
+    "numeric": "cpp",
+    "iomanip": "cpp",
+    "ios": "cpp",
+    "__split_buffer": "cpp",
+    "deque": "cpp",
+    "list": "cpp",
+    "string": "cpp",
+    "set": "cpp",
+    "queue": "cpp",
+    "map": "cpp",
+    "random": "cpp",
+    "array": "cpp",
+    "string_view": "cpp",
+    "chrono": "cpp",
+    "limits": "cpp",
+    "algorithm": "cpp"
+  }
+}
